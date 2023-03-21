@@ -1,0 +1,13 @@
+@custom-media --viewport-medium (width <= 50rem);
+
+body {
+	background-color: blanchedalmond;
+
+	@media (--viewport-medium) {
+		background-color: green;
+	  }
+
+	& h1 {
+		color: lch(52.2345% 72.2 56.2 / .5);
+	}
+}

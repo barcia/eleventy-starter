@@ -1,0 +1,26 @@
+{
+  "name": "11ty-starter-image",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "DEBUG=Eleventy* eleventy",
+    "start": "eleventy --serve --incremental"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.0",
+    "@11ty/eleventy-img": "^3.0.0",
+    "@11ty/eleventy-plugin-vite": "^4.0.0",
+    "postcss-preset-env": "^8.0.1"
+  },
+  "browserslist": [
+    "> 5%",
+    "last 2 firefox versions",
+    "last 2 chrome versions",
+    "last 2 safari versions",
+    "last 2 edge versions"
+  ]
+}
